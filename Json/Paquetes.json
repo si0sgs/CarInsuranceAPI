@@ -1,0 +1,55 @@
+{
+    "insurance_packages": [
+        {
+            "id": "PKG001",
+            "name": "Paquete Básico",
+            "imagen":"images/Basic.png",
+            "coverage": [
+                "Cobertura contra accidentes",
+                "Responsabilidad civil",
+                "Protección básica contra robo",
+                "Asistencia en carretera limitada"
+            ]
+        },
+        {
+            "id": "PKG002",
+            "name": "Paquete Premium",
+            "imagen":"images/Premium.png",
+            "coverage": [
+                "Cobertura completa contra accidentes",
+                "Responsabilidad civil ampliada",
+                "Protección contra robo y vandalismo",
+                "Asistencia en carretera 24/7"
+            ]
+        },
+        {
+            "id": "PKG003",
+            "name": "Paquete Platinum",
+            "imagen":"images/Platinum.png",
+            "coverage": [
+                "Cobertura total contra accidentes",
+                "Responsabilidad civil ilimitada y asistencia 24/7",
+                "Protección completa contra robo y vandalismo",
+                "Cobertura de daños por desastres naturales"
+            ]
+        }
+    ],
+    "vehicle_classes": [
+        {
+            "code": "CL001",
+            "description": "Particulares: vehículos sedanes de uso diario"
+        },
+        {
+            "code": "CL002",
+            "description": "SUVs: vehículos todo terreno"
+        },
+        {
+            "code": "CL003",
+            "description": "Pick Ups: vehículos de carga livina"
+        },
+        {
+            "code": "CL004",
+            "description": "Uber: vehículos de transporte de personas."
+        }
+    ]
+}
